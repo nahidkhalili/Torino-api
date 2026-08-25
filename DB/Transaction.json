@@ -82,5 +82,19 @@
     "amount": 3500000,
     "type": "Purchase",
     "createdAt": "2025-02-12T08:58:41.419Z"
+  },
+  {
+    "id": "fab5a7fa-8a73-41b8-b06a-cc2095f114de",
+    "userId": "335b1412-2e2d-4ba5-b8ea-2eff1c3ee8f2",
+    "amount": 10500000,
+    "type": "Purchase",
+    "createdAt": "2025-02-24T08:21:12.263Z"
+  },
+  {
+    "id": "04d06bd1-fdaf-4702-9651-3997de915912",
+    "userId": "a8452c50-82f2-4ea7-beed-0d5fa91b2a5a",
+    "amount": 24000000,
+    "type": "Purchase",
+    "createdAt": "2025-12-02T17:39:24.145Z"
   }
 ]

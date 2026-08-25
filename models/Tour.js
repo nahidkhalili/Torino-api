@@ -9,7 +9,7 @@ const getAllTours = async () => {
 
   tours = await tours.map((tour) => {
     if (tour) {
-      tour.image = `https://torino-api-rho.vercel.app/:${PORT}${tour?.image}`;
+      tour.image = `http://localhost:${PORT}${tour?.image}`;
     }
 
     return tour;
@@ -22,7 +22,7 @@ const getTourById = async (id) => {
   const tours = await readData(TOURS_FILE);
   let data = await tours.find((tour) => tour.id === id);
   if (data) {
-    data.image = `https://torino-api-rho.vercel.app/:${PORT}${data?.image}`;
+    data.image = `http://localhost:${PORT}${data?.image}`;
   }
   // console.log(data, 'test');
   return data;
